@@ -1,12 +1,18 @@
 class GramsController < ApplicationController
   before_action :authenticate_user!, only: [:new, :create]
+<<<<<<< HEAD
+=======
 
   def index
 
   end
+>>>>>>> master
 
   def new
     @gram = Gram.new
+  end
+
+  def index
   end
 
   def create
@@ -23,7 +29,5 @@ class GramsController < ApplicationController
   def gram_params
     params.require(:gram).permit(:message)
   end
-
-
 
 end
