@@ -5,4 +5,8 @@ class User < ApplicationRecord
     :recoverable, :rememberable, :trackable, :validatable
 
   has_many :grams
+<<<<<<< HEAD
 end
+=======
+end
+>>>>>>> master
