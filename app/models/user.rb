@@ -7,5 +7,6 @@ class User < ApplicationRecord
 
 
   has_many :grams
+  has_many :comments
 end
 

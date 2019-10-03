@@ -14,7 +14,7 @@ RSpec.describe CommentsController, type: :controller do
 
 			expect(response).to redirect_to root_path
 			expect(gram.comments.length).to eq 1
-			expect(gram.comments.first.message).to eq "awesome gram"
+			expect(gram.comments.first.message).to eq "awesome gram!"
 		end
 
 		it "should require a user to be logged in to comment on grams" do
@@ -26,7 +26,12 @@ RSpec.describe CommentsController, type: :controller do
 		end
 
 		it "should return http status code of not found if the gram isn't found" do
+			user = FactoryBot.create(:user)
+			sign_in user
 
+			post :create, params: { gram_id: 'poop', comment: { message: 'poop gram' } }
+
+			expect(response).to have_http_status(:not_found)
 		end
 
 	end
