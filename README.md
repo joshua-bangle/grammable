@@ -28,5 +28,13 @@ bundle install
 rails db:setup
 rails db:migrate
 ```
+
+## Built with
+
+* [Ruby](https://www.ruby-lang.org/en/documentation/installation/) on the [Rails](https://gorails.com/setup/) framework
+* [Bootstrap](https://getbootstrap.com/) css framework for styling
+* [RSpec Rails](https://github.com/rspec/rspec-rails) for TDD
+
+
 ## Usage
 Please feel free to use this code without permission or need to contact me.   
