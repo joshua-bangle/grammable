@@ -1,24 +1,32 @@
-# README
+# Grammable
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+[![forthebadge](https://forthebadge.com/images/badges/made-with-ruby.svg)](https://forthebadge.com)
 
-Things you may want to cover:
+  ## Focuses
+  * Made almost entirely to learn TDD using rspec
 
-* Ruby version
+Live demo [can be found here](https://grammable-josh-bangle.herokuapp.com/) on Heroku.
 
-* System dependencies
+* Username: test1@test.<span></span>com
+* Password: password
 
-* Configuration
+## Getting Started
 
-* Database creation
+### Prerequisites
 
-* Database initialization
+This setup expects [Git](https://git-scm.com/downloads), [Ruby v 2.5.3](https://www.ruby-lang.org/en/documentation/installation/), and [Rails](https://gorails.com/setup/) to be installed. [PostgreSQL](https://www.postgresql.org/download/) is used for the database.
 
-* How to run the test suite
+If you prefer not to worry about the Ruby version, you can navigate to spaz/Gemfile and on line 4 comment out `ruby '2.5.3'` to look like `# ruby '2.5.3` once you have cloned the repository.
 
-* Services (job queues, cache servers, search engines, etc.)
+### Installing the code
 
-* Deployment instructions
-
-* ...
+To view this code on your local machine, clone the repository, install the included gems, and migrate the database:
+```
+git clone git@github.com:joshbangle/grammable.git
+cd grammable
+bundle install
+rails db:setup
+rails db:migrate
+```
+## Usage
+Please feel free to use this code without permission or need to contact me.   
