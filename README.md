@@ -33,6 +33,8 @@ rails db:migrate
 
 * [Ruby](https://www.ruby-lang.org/en/documentation/installation/) on the [Rails](https://gorails.com/setup/) framework
 * [Bootstrap](https://getbootstrap.com/) css framework for styling
+* [Devise](https://github.com/heartcombo/devise) user authentication
+* [AWS](https://aws.amazon.com/) for cloud storage
 * [RSpec Rails](https://github.com/rspec/rspec-rails) for TDD
 
 
