@@ -2,6 +2,8 @@
 
 [![forthebadge](https://forthebadge.com/images/badges/made-with-ruby.svg)](https://forthebadge.com)
 
+![Landing](readmeImages/grammable.png)
+
   ## Focuses
   * Made almost entirely to learn TDD using rspec
 
